@@ -1,0 +1,81 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 60px; 
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.about,
+.gratitude,
+.contact {
+    margin-bottom: 20px;
+    
+}
+
+/* Стили для мобильных устройств */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .achievement-card, .review-card {
+        margin: 10px 0;
+    }
+}
